@@ -15,7 +15,7 @@
       font-family: 'Inter', sans-serif;
     }
     body {
-      background-color: #ffffff;
+      background-color: #f3f6fa;
       color: #111;
       line-height: 1.8;
     }
@@ -23,7 +23,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 4rem 2rem;
+      padding: 4rem 8%;
       background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)),
         url('https://images.unsplash.com/photo-1528901166007-3784c7dd3653?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     }
@@ -45,9 +45,7 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
     section {
-      padding: 4rem 2rem;
-      max-width: 960px;
-      margin: 0 auto;
+      padding: 4rem 8%;
     }
     h2 {
       font-size: 2rem;
@@ -61,18 +59,28 @@
       gap: 2rem;
     }
     .card {
-      background: #f9f9f9;
-      padding: 1.8rem;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 2rem;
       border-radius: 16px;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-      transition: all 0.3s ease;
+      background-size: cover;
+      background-position: center;
+      color: #111;
     }
-    .card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    .card.schengen {
+      background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('https://images.unsplash.com/photo-1587982335271-d86d32d7b24e?auto=format&fit=crop&w=800&q=60');
+    }
+    .card.usa {
+      background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=60');
+    }
+    .card.uk {
+      background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=60');
+    }
+    .card.canada {
+      background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=800&q=60');
     }
     .faq {
-      background: #f7f7f7;
+      background: #ffffff;
       padding: 2rem;
       border-radius: 12px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.05);
@@ -94,7 +102,7 @@
       text-align: center;
       padding: 2.5rem;
       font-size: 1rem;
-      background-color: #f2f2f2;
+      background-color: #e9edf2;
       color: #444;
     }
   </style>
@@ -123,19 +131,19 @@
   <section>
     <h2>Hizmetlerim</h2>
     <div class="projects">
-      <div class="card">
+      <div class="card schengen">
         <h3>Turistik Schengen Vizesi Danışmanlığı</h3>
         <p>Schengen bölgesindeki ülkeler için vize sürecini baştan sona yönetiyorum. Evrak hazırlığı, seyahat planlaması, randevu sistemi ve danışanın kişisel durumu göz önünde bulundurularak başvuru dosyasını başarıya ulaştırmak için detaylı bir çalışma yürütüyorum.</p>
       </div>
-      <div class="card">
+      <div class="card usa">
         <h3>Amerika Turist Vizesi (B1/B2)</h3>
         <p>DS-160 formu doldurma, mülakat hazırlığı ve vize görüşmesine yönelik yönlendirmelerle birlikte süreci kolaylaştırıyor, danışanın profiline göre özelleştirilmiş bir yaklaşım sunuyorum.</p>
       </div>
-      <div class="card">
+      <div class="card uk">
         <h3>İngiltere Turist Vizesi</h3>
         <p>İngiltere başvurularında özellikle evrak sıralaması ve açıklayıcı destekleyici belgeler büyük önem taşır. Bu nedenle başvurunun güvenilirliği adına titiz ve stratejik bir hazırlık yapıyorum.</p>
       </div>
-      <div class="card">
+      <div class="card canada">
         <h3>Kanada Turist Vizesi</h3>
         <p>Online başvuru sistemine hakimiyetim sayesinde süreci uzatmadan ilerletiyor, biyometri randevusu ve ek belge yönetiminde adım adım destek sağlıyorum.</p>
       </div>
