@@ -20,33 +20,34 @@
       line-height: 1.8;
     }
     header {
-      height: 90vh;
-      background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)),
-        url('https://images.unsplash.com/photo-1590080876643-e1f54fd82d36?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 4rem 2rem 2rem;
+      background: #f2f2f2;
       text-align: center;
-      color: #111;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
     header h1 {
-      font-size: 3.2rem;
+      font-size: 2.5rem;
       font-weight: 700;
       margin-bottom: 0.5rem;
     }
     header p {
       font-size: 1.2rem;
-      font-weight: 400;
-      max-width: 700px;
+      max-width: 720px;
       margin: 0 auto;
     }
     section {
-      padding: 5rem 2rem;
+      padding: 4rem 2rem;
       max-width: 960px;
       margin: 0 auto;
     }
     h2 {
-      font-size: 2.2rem;
+      font-size: 2rem;
       margin-bottom: 1.5rem;
       border-left: 5px solid #0077cc;
       padding-left: 0.75rem;
@@ -57,15 +58,27 @@
       gap: 2rem;
     }
     .card {
-      background: #f2f6fa;
+      background: #f9f9f9;
       padding: 1.8rem;
       border-radius: 16px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
       transition: all 0.3s ease;
     }
     .card:hover {
       transform: translateY(-6px);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    }
+    .faq {
+      background: #f7f7f7;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    }
+    .faq h3 {
+      margin-bottom: 1rem;
+    }
+    .faq p {
+      margin-bottom: 1.5rem;
     }
     a {
       color: #0077cc;
@@ -78,28 +91,24 @@
       text-align: center;
       padding: 2.5rem;
       font-size: 1rem;
-      background-color: #f9f9f9;
+      background-color: #f2f2f2;
       color: #444;
     }
   </style>
 </head>
 <body>
   <header>
-    <div>
-      <h1>Ufuk Özemir Yılmaz</h1>
-      <p>Turistik vize danışmanlığında uzmanlaşmış, güvenilir ve samimi bir rehber olarak yolculuğunuza eşlik ediyorum.</p>
-    </div>
+    <img src="ufuk-profile-circle.png" alt="Ufuk Özemir Yılmaz Profil Fotoğrafı" />
+    <h1>Ufuk Özemir Yılmaz</h1>
+    <p>Turistik vize danışmanlığında uzmanlaşmış, güvenilir ve samimi bir rehber olarak yolculuğunuza eşlik ediyorum.</p>
   </header>
 
   <section>
     <h2>Hakkımda</h2>
     <p>
-      1995 yılında Ordu’nun Fatsa ilçesinde doğdum. 2012 yılında İstanbul’a taşındım ve 2015-2019 yılları arasında Selçuk Üniversitesi’nde Reklamcılık eğitimi aldım. O günden bu yana insanlarla kurduğum iletişimde gözlem, empati ve yönlendirme becerilerimi geliştirdim.
-      <br><br>
-      Son 3 yıldır vize danışmanlığı alanında aktif olarak çalışıyorum. Özellikle turistik vizeler konusunda Schengen bölgesi başta olmak üzere İngiltere, Amerika ve Kanada vizeleri üzerine uzmanlaştım. Her başvurunun kendi içinde barındırdığı detaylara önem vererek, başvuru sahibinin ihtiyacına özel çözümler üretmeyi amaçlıyorum.
-      <br><br>
-      Randevu bulamayanlar, evrak hazırlığında kaygı yaşayanlar ya da daha önce red almış danışanlar için süreçleri yeniden yapılandırarak başarılı sonuçlar elde etmeyi sağlıyorum. Danışanlarımla kurduğum ilişki, sadece danışmanlıkla sınırlı kalmaz; bir yol arkadaşlığına dönüşür.
-      <br><br>
+      1995 yılında Ordu’nun Fatsa ilçesinde doğdum. 2012 yılında İstanbul’a taşındım ve 2015-2019 yılları arasında Selçuk Üniversitesi’nde Reklamcılık eğitimi aldım. O günden bu yana insanlarla kurduğum iletişimde gözlem, empati ve yönlendirme becerilerimi geliştirdim.<br><br>
+      Son 3 yıldır vize danışmanlığı alanında aktif olarak çalışıyorum. Özellikle turistik vizeler konusunda Schengen bölgesi başta olmak üzere İngiltere, Amerika ve Kanada vizeleri üzerine uzmanlaştım. Her başvurunun kendi içinde barındırdığı detaylara önem vererek, başvuru sahibinin ihtiyacına özel çözümler üretmeyi amaçlıyorum.<br><br>
+      Randevu bulamayanlar, evrak hazırlığında kaygı yaşayanlar ya da daha önce red almış danışanlar için süreçleri yeniden yapılandırarak başarılı sonuçlar elde etmeyi sağlıyorum. Danışanlarımla kurduğum ilişki, sadece danışmanlıkla sınırlı kalmaz; bir yol arkadaşlığına dönüşür.<br><br>
       Danışmanlığın yanı sıra sokak fotoğrafçılığına tutkuluyum. Şehirlerin ruhunu, insanların hikayesini ve anın estetiğini belgelemek benim için hem bir kaçış hem de bir ilham kaynağı.
     </p>
   </section>
@@ -127,14 +136,27 @@
   </section>
 
   <section>
+    <h2>Sıkça Sorulan Sorular</h2>
+    <div class="faq">
+      <h3>Vize sürecine ne zaman başlamalıyım?</h3>
+      <p>Seyahat tarihinden en az 1-2 ay önce danışmanlığa başlamak idealdir. Bazı ülkelerde yoğunluk nedeniyle randevu bulmak zaman alabilir.</p>
+
+      <h3>Daha önce red aldım, tekrar başvurabilir miyim?</h3>
+      <p>Evet. Reddin nedenine göre evraklar ve başvuru stratejisi yeniden yapılandırılarak tekrar başvuru yapılabilir.</p>
+
+      <h3>Danışmanlık sürecinde hangi destekleri alırım?</h3>
+      <p>Randevu alımı, evrak listesi, başvuru formlarının doldurulması, gerekli çeviriler, başvuru günü eşlik (İstanbul içi) gibi birçok konuda destek verilir.</p>
+    </div>
+  </section>
+
+  <section>
     <h2>İletişim</h2>
     <p>Bana <a href="mailto:ufukvize3@gmail.com">ufukvize3@gmail.com</a> adresinden veya <a href="tel:+905457325234">0545 732 5234</a> numaralı telefondan ulaşabilirsin.<br>
     Instagram: <a href="https://instagram.com/ufukozemir" target="_blank">@ufukozemir</a></p>
   </section>
 
   <footer>
-    Ufuk Özemir Yılmaz | İstanbul
-    <br>
+    Ufuk Özemir Yılmaz | İstanbul<br>
     Vize danışmanlığı sürecini insan odaklı ve profesyonel bir yaklaşımla yönetiyorum. Amacım, her yolcunun güvenle ve gönül rahatlığıyla seyahat etmesini sağlamak.
   </footer>
 </body>
