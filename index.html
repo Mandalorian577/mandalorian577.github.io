@@ -20,26 +20,29 @@
       line-height: 1.8;
     }
     header {
-      padding: 4rem 2rem 2rem;
-      background: #f2f2f2;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem 2rem;
+      background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)),
+        url('https://images.unsplash.com/photo-1528901166007-3784c7dd3653?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     }
-    header img {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      margin-bottom: 1rem;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    .header-text {
+      max-width: 600px;
     }
-    header h1 {
-      font-size: 2.5rem;
+    .header-text h1 {
+      font-size: 2.8rem;
       font-weight: 700;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
-    header p {
+    .header-text p {
       font-size: 1.2rem;
-      max-width: 720px;
-      margin: 0 auto;
+    }
+    .header-photo img {
+      width: 180px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
     section {
       padding: 4rem 2rem;
@@ -98,9 +101,13 @@
 </head>
 <body>
   <header>
-    <img src="ufuk-profile-circle.png" alt="Ufuk Özemir Yılmaz Profil Fotoğrafı" />
-    <h1>Ufuk Özemir Yılmaz</h1>
-    <p>Turistik vize danışmanlığında uzmanlaşmış, güvenilir ve samimi bir rehber olarak yolculuğunuza eşlik ediyorum.</p>
+    <div class="header-text">
+      <h1>Ufuk Özemir Yılmaz</h1>
+      <p>Turistik vize danışmanlığında uzmanlaşmış, güvenilir ve samimi bir rehber olarak yolculuğunuza eşlik ediyorum.</p>
+    </div>
+    <div class="header-photo">
+      <img src="ufuk-profile-full.png" alt="Ufuk Özemir Yılmaz" />
+    </div>
   </header>
 
   <section>
