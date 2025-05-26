@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ufuk Yılmaz | Creative Technologist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f9f9f9;
+      color: #111;
+      line-height: 1.6;
+    }
+    header {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #111;
+      padding-left: 0.5rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Ufuk Yılmaz</h1>
+      <p>Creative Technologist | AI Explorer | Storyteller</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Hakkımda</h2>
+    <p>
+      Teknoloji, tasarım ve hikaye anlatımının kesişiminde çalışan birisiyim. Yapay zeka ile üretimden, sade ve etkili iletişime kadar pek çok alanda üretim yapıyorum. Yeni nesil dijital varlıkların doğuşuna katkıda bulunmayı seviyorum.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projeler</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Yapay Zeka ile Görsel Üretim</h3>
+        <p>Stable Diffusion ile yüksek kaliteli moda ve sanatsal projeler geliştiriyorum.</p>
+      </div>
+      <div class="card">
+        <h3>Vize Danışmanlık Web Çözümleri</h3>
+        <p>Vize süreçlerini kolaylaştıran profesyonel web tabanlı sistemler tasarlıyorum.</p>
+      </div>
+      <div class="card">
+        <h3>Kişisel Marka Gelişimi</h3>
+        <p>LinkedIn ve diğer dijital platformlarda etkili görünürlük için stratejik içerikler üretiyorum.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>İletişim</h2>
+    <p>Bana <a href=\"mailto:ufuk@example.com\">ufuk@example.com</a> adresinden ulaşabilirsin.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ufuk Yılmaz. Tüm hakları saklıdır.
+  </footer>
+</body>
+</html>
 
